@@ -1,0 +1,151 @@
+.head{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(143, 201, 220);
+    color: white;
+    padding: 0px 8%;
+  }
+  .head button{
+    padding: 8px 25px;
+    background: white;
+    box-shadow: 0px 0px 10px rgb(2, 160, 213);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 599;
+    color: rgb(6, 164, 216);
+    transition: all ease 0.3s;
+  }
+  .head button:active{
+    background: rgb(6, 164, 216);
+    color: white;
+  }
+  .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    height: 500px;
+    background: white;
+    border: 2px solid rgb(143, 201, 220);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(143, 201, 220);
+  }
+  .card .title{
+    width: 100%;
+    height: 50px;
+    background: rgb(143, 201, 220);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+  }
+  .card .title label{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .card form{
+    width: 100%;
+    padding: 10px 25px;
+  }
+  .card form .input-field{
+    width: 100%;
+  }
+  .card form .input-field{
+    font-weight: 599;
+  }
+  .card form .input-field label{
+    color: rgb(143, 201, 220);
+  }
+  .card form .input-field label span{
+    color: red;
+    margin-left: 4px;
+  }
+  .card form .input-field input,
+  .card form .input-field select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: none;
+    border: 2px solid rgb(143, 201, 220);
+    color: rgb(143, 201, 220);
+    border-radius: 4px;
+  }
+  .card form input[type='submit']{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(143, 201, 220);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+  }
+  .card form input[type='submit']:hover{
+    background: white;
+    color: rgb(6, 164, 216);
+    box-shadow: 0px 0px 10px rgb(2, 160, 213);
+  }
+  table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(143, 201, 220);
+    border-radius: 4px;
+  }
+  table thead{
+    width: 100%;
+    background: rgb(143, 201, 220);
+    color: white;
+  }
+  table thead th{
+    padding: 10px;
+    font-weight: 599;
+  }
+  table tbody{
+    width: 100%;
+  }
+  table tbody tr{
+    border: 2px solid rgb(143, 201, 220);
+  }
+  table tbody tr td{
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
+  table tbody tr .actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  table tbody tr .actions button{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+  }
+  table tbody tr .actions button:nth-child(1){
+    background: rgb(71, 198, 71);
+    border: 2px solid green;
+  }
+  table tbody tr .actions button:nth-child(2){
+    background: rgb(252, 87, 87);
+    border: 2px solid red;
+  }
